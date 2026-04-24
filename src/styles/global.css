@@ -1,0 +1,35 @@
+:root {
+  /* Colors */
+  --color-bg: #11182A;
+  --color-bg-modules:#10002B;
+  --color-accent: #3C096C;
+  --color-primary: #C77DFF; 
+  --color-light: #E0AAFF; 
+
+  /* Fonts */
+  --text-primary: 'Jersey 10','Inter', system-ui, sans-serif;
+  --text-secondary: 'Iceberg', 'Jersey 10', 'Inter', system-ui, sans-serif;
+
+  --text-size-sm: 1rem;
+  --text-size-md: 1.5rem;
+  --text-size-lg: 2rem;
+
+  /* Spacing */
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+
+  /* Radius */
+  --radius: 10px;
+}
+*,*::before,*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: var(--color-bg);
+  font-family: var(--text-primary);
+  color: var(--color-primary);
+  font-size: var(--text-size-medium);
+}
